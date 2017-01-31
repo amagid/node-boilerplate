@@ -1,2 +1,2 @@
-# BigPie CIR Automation Backend
-Backend to automate BigPie CIRs and other email blasts.
+# Node Boilerplate
+A basic Node boilerplate just how I like it with commented socket.io implementation.
