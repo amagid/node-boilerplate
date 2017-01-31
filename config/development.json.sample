@@ -5,9 +5,5 @@
 
     "jwt": {
         "expiresIn": "1h"
-    },
-
-    "bigPie": {
-        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjU2NGUyMGJkMTI5ODUzMDgxZWU0YWFmMCIsImlhdCI6MTQ4NDk0NzI4OSwiZXhwIjoxNDg0OTgzMjg5fQ.nGvhQ_g_cgWF3_3dx-FcDIwWmDOwSrrdkfJXHkh8dLs"
     }
 }
