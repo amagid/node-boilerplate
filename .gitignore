@@ -1,0 +1,8 @@
+node_modules/**
+.vscode/**
+logs/*.log
+logs/exceptions/*.exceptions
+jsconfig.json
+config/keys/jwt*
+config/*.json
+EC2/**
