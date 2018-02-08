@@ -21,11 +21,11 @@ const exceptionTransport = new winston.transports.DailyRotateFile({
 const logger = new(winston.Logger)({
     transports: [
         normalTransport,
-        new (winston.transports.Console)()
+        new winston.transports.Console()
     ],
     exceptionHandlers: [
         normalTransport,
-        new (winston.transports.Console)(),
+        new winston.transports.Console(),
         exceptionTransport
     ],
     exitOnError: false
