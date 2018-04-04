@@ -7,6 +7,6 @@ module.exports = {
 
 function login(email, password) {
     return Promise.resolve(true).then(result => {
-        throw APIError(404, 'Shitty Request');
+        throw APIError(400, 'Bad Request');
     });
 }
